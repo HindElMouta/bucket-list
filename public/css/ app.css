@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(#000000, #132135) fixed;
+    color: #EEE;
+    font-family: 'Crimson Text', serif;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+header {
+    background-color: #A5A58D;
+    padding: 1rem 0;
+}
+header h1 {
+    margin: 0 0 10px 0;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+.header-logo {
+    font-size: 3rem;
+    font-weight: normal;
+}
+.header-logo img {
+    max-width: 42px;
+    margin-right: 5px;
+}
+.header-nav {
+    display: flex;
+    margin-right: 2rem;
+}
+main {
+    flex: 1;
+    padding: 1rem 0;
+    background-color: #FFF1E6;
+}
+footer {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: #EDDCD2;
+}
+main a {
+    color: #8c6956;
+}
+.wishes-list article {
+    margin-bottom: 0.5rem;
+}
+.wish-credit {
+    font-size: 0.9rem;
+    font-style: italic;
+}
+body > .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
